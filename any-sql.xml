@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<any>
+    <sql>
+        SELECT VALUE FROM APP.DATA_TABLE WHERE ID=?
+    </sql>
+</any>

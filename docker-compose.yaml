@@ -1,0 +1,12 @@
+services:
+  db:
+    image: az82/docker-derby:v1.3
+    ports:
+        - "1527:1527"
+    restart: always
+    volumes:
+      - db-data:/Database
+
+# Volumes
+volumes:
+  db-data:
